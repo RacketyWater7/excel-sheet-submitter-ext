@@ -35,7 +35,6 @@ const Popup = () => {
       <Box
         sx={{
           mt: '1rem',
-          ml: '30%',
         }}
       >
         {/* a button to open the new tab in same window with this url https://apps.acgme.org/ads/CaseLogs/CaseEntry/Insert */}
@@ -44,6 +43,7 @@ const Popup = () => {
           uploading the file.
         </Typography>
         <Button
+          sx={{ ml: '30%' }}
           variant="contained"
           color="primary"
           onClick={() => {
