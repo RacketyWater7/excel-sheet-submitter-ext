@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Candara';
+  src: url('/src/styles/fonts/candara.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* ///////////////////////////////// @fullcalendar classes /////////////////////////////////// */
+
+.fc-daygrid-event {
+  visibility: hidden !important;
+  /* completely disappear the content */
+  position: absolute !important;
+  /* take out of the flow of the document */
+  pointer-events: none !important;
+}
+
+/* /////////////////////////////////THE END TO @fullcalendar classes /////////////////////////////////// */
+
+/* /////////////////////////////////THE START TO @mui/x-date-pickers classes /////////////////////////////////// */
+
+.css-1ooruo3-MuiTypography-root-PrivatePickersMonth-root {
+  font-size: 1rem !important; /* adjust the font size to your preference */
+}
+
+/* /////////////////////////////////THE END TO @mui/x-date-pickers classes /////////////////////////////////// */
